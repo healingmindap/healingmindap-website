@@ -1,5 +1,3 @@
-import Facilities from "./facilities";
-
 function AboutUs() {
   return (
     <section>
