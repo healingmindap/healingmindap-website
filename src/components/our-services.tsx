@@ -5,7 +5,7 @@ function OurServices() {
         <div className="mb-8">
           <h1 className="text-center text-4xl text-gray-700">Our Services</h1>
         </div>
-        <div className="flex gap-5">
+        <div className="flex flex-col gap-20 md:flex-row md:gap-5">
           <div className="flex flex-col items-center gap-5 ">
             <img className="h-40 object-cover" src="/assets/phychometry.webp" />
             <div>

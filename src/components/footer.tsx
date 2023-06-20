@@ -57,7 +57,7 @@ function Footer() {
               <span>8830324723</span>
             </a>
             <a
-              className="flex  items-center gap-2 text-white"
+              className="flex  w-full items-center gap-2 text-white"
               href="mailto:healingmindpa@gmail.com"
             >
               <svg
@@ -75,7 +75,7 @@ function Footer() {
                 />
               </svg>
 
-              <span>healingmindpa@gmail.com</span>
+              <span className="truncate">healingmindpa@gmail.com</span>
             </a>
           </div>
         </div>
