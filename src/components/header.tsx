@@ -3,10 +3,9 @@ import {
   SheetContent,
   SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "./ui/sheet";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 
 function Header() {
   return (
