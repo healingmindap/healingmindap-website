@@ -1,6 +1,6 @@
 function OurServices() {
   return (
-    <div className="aspect-[2.35/1] bg-gradient-to-b from-green-100 py-20">
+    <div className="aspect-[2.35/1] bg-gradient-to-b from-green-100 px-5  py-20">
       <section className="mx-auto flex max-w-screen-xl flex-col justify-center">
         <div className="mb-8">
           <h1 className="text-center text-4xl text-gray-700">Our Services</h1>
@@ -17,7 +17,7 @@ function OurServices() {
               </p>
             </div>
             <a
-              href="#"
+              href="tel:+9168700954"
               className="text-md rounded-full bg-black px-4 py-2 text-white transition hover:border-opacity-80 hover:bg-opacity-80"
             >
               Book an Appointment
@@ -38,7 +38,7 @@ function OurServices() {
                 </p>
               </div>
               <a
-                href="#"
+                href="tel:+9168700954"
                 className="text-md rounded-full bg-black px-4 py-2 text-white transition hover:border-opacity-80 hover:bg-opacity-80"
               >
                 Book an Appointment
@@ -57,7 +57,7 @@ function OurServices() {
                 </p>
               </div>
               <a
-                href="#"
+                href="tel:+9168700954"
                 className="text-md rounded-full bg-black px-4 py-2 text-white transition hover:border-opacity-80 hover:bg-opacity-80"
               >
                 Book an Appointment

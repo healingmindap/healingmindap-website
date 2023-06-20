@@ -10,8 +10,12 @@ function App() {
     <>
       <Header />
       <Hero />
-      <AboutUs />
-      <Facilities />
+      <div className="bg-about-us-pattern">
+        <div className="flex flex-col gap-20 bg-white bg-opacity-80 px-5 py-20 backdrop-blur">
+          <AboutUs />
+          <Facilities />
+        </div>
+      </div>
       <OurServices />
       <Footer />
     </>
