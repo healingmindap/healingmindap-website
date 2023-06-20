@@ -47,8 +47,6 @@ function Header() {
               Contact Us
             </a>
           </li>
-          <li></li>
-          <li></li>
         </ul>
       </nav>
     </div>

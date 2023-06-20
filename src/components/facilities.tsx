@@ -1,7 +1,7 @@
 function Facilities() {
   return (
-    <section className="flex aspect-[2.35/1] flex-col justify-center bg-about-us-pattern bg-cover">
-      <div className="w-8/12 bg-white p-10">
+    <section className="flex aspect-[2.35/1] flex-col justify-center bg-gradient-to-b from-white to-green-100">
+      <div className="w-8/12 bg-white p-10 shadow ">
         <div className="mb-6">
           <h1 className="text-4xl text-gray-700">Facilities</h1>
         </div>
