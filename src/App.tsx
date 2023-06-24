@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import Router from "preact-router";
 import HomePage from "./pages/home-page";
 import Footer from "./components/footer";

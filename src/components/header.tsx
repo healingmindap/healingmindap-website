@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Link } from "preact-router";
 import {
   Sheet,

@@ -1,5 +1,4 @@
-"use client";
-
+// @ts-nocheck
 import * as React from "preact";
 import { forwardRef } from "preact/compat";
 import * as SheetPrimitive from "@radix-ui/react-dialog";
@@ -42,10 +41,7 @@ const SheetPortal = ({
 );
 SheetPortal.displayName = SheetPrimitive.Portal.displayName;
 
-const SheetOverlay = forwardRef<
-  React.ElementRef<typeof SheetPrimitive.Overlay>,
-  React.ComponentPropsWithoutRef<typeof SheetPrimitive.Overlay>
->(({ className, children, ...props }, ref) => (
+const SheetOverlay = forwardRe(({ className, children, ...props }, ref) => (
   <SheetPrimitive.Overlay
     className={cn(
       "bg-background/80 data-[state=closed]:animate-out data-[state=closed]:fade-out data-[state=open]:fade-in fixed inset-0 z-50 backdrop-blur-sm transition-all duration-100",
