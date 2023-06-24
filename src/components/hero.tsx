@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section className="grid aspect-square place-content-center bg-hero-pattern bg-cover px-5 sm:aspect-[2.35/1]">
-      <div className="flex flex-col items-center gap-y-4">
+      <div className="flex flex-col items-center gap-y-4 max-w-screen-xl mx-auto">
         <h1 className="text-center text-4xl text-gray-700">HEALING MIND</h1>
         <h2 className="text-center text-gray-700">WE MAKE WORLD BETTER</h2>
         <p className="text-center text-gray-700">

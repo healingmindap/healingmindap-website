@@ -1,3 +1,4 @@
+import { Link } from "preact-router";
 import {
   Sheet,
   SheetContent,
@@ -11,55 +12,55 @@ function Header() {
   return (
     <>
       <div className="bg-white px-4 py-6 shadow-sm">
-        <nav className="flex items-center justify-between">
+        <nav className="flex items-center justify-between max-w-screen-xl mx-auto">
           <ul className="flex items-center gap-5">
             <li>
-              <a className="flex items-center gap-4" href="">
+              <Link className="flex items-center gap-4" href="/">
                 <img
                   className="h-auto w-14 object-cover"
                   src="/assets/logo.webp"
                   alt="logo"
                 />
                 <h1 className="font-semibold text-gray-700">HEALING MIND</h1>
-              </a>
+              </Link>
             </li>
             <li>
               <ul className="hidden gap-5 sm:flex">
                 <li>
-                  <a
+                  <Link
                     className="pb-1 text-gray-700 transition hover:border-b hover:border-gray-700"
-                    href="#"
+                    href="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="pb-1 text-gray-700 transition hover:border-b hover:border-gray-700"
-                    href="#"
+                    href="/gallery"
                   >
                     Gallery
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="pb-1 text-gray-700 transition hover:border-b hover:border-gray-700"
-                    href="#"
+                    href="/contact"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
           </ul>
           <ul className="hidden items-center gap-5 sm:flex">
             <li>
-              <a
+              <Link
                 className="text-md rounded-full bg-red-900 px-5 py-2.5 text-white transition hover:bg-opacity-80"
-                href="#"
+                href="/"
               >
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="block sm:hidden">
@@ -72,28 +73,28 @@ function Header() {
                   <SheetDescription className="">
                     <ul className="mt-5 divide-y-2">
                       <li className="p-5">
-                        <a
+                        <Link
                           className="inline-block border-b border-transparent pb-1 text-gray-700 transition hover:border-gray-700"
-                          href="#"
+                          href="/"
                         >
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li className="p-5">
-                        <a
+                        <Link
                           className="inline-block border-b border-transparent pb-1 text-gray-700 transition hover:border-gray-700"
-                          href="#"
+                          href="/gallery"
                         >
                           Gallery
-                        </a>
+                        </Link>
                       </li>
                       <li className="p-5">
-                        <a
+                        <Link
                           className="inline-block border-b border-transparent pb-1 text-gray-700 transition hover:border-gray-700"
-                          href="#"
+                          href="/contact"
                         >
                           Contact
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </SheetDescription>
