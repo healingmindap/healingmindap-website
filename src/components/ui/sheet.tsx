@@ -41,7 +41,7 @@ const SheetPortal = ({
 );
 SheetPortal.displayName = SheetPrimitive.Portal.displayName;
 
-const SheetOverlay = forwardRe(({ className, children, ...props }, ref) => (
+const SheetOverlay = forwardRef(({ className, children, ...props }, ref) => (
   <SheetPrimitive.Overlay
     className={cn(
       "bg-background/80 data-[state=closed]:animate-out data-[state=closed]:fade-out data-[state=open]:fade-in fixed inset-0 z-50 backdrop-blur-sm transition-all duration-100",
